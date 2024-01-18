@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Винный каталог</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Каталог</h1>
+    </header>
+
+
+    <ul class="flex-container">
+      <li class="col-33">
+        <figure>
+          <img class="wineimg" src=".\imgas\wine1.png">
+          <figcaption class="ttt"><p>Bio Bardolino DOC Chiaretto 2021</p></figcaption>
+        </figure>
+      </li>
+      <li class="col-33">
+        <figure>
+          <img class="wineimg" src=".\imgas\wine2.png">
+          <figcaption><p>Bio Chianti DOCG</p></figcaption>
+        </figure>
+      </li>
+      <li class="col-33">
+        <figure>
+          <img class="wineimg" src=".\imgas\wine3.png">
+          <figcaption><p>Abadia Retuerta Cuvee Palomar 2004</p></figcaption>
+        </figure>
+      </li>
+      <li class="col-33">
+        <figure>
+          <img class="wineimg" src=".\imgas\wine4.png">
+          <figcaption class="ttt"><p>Abbona Barbaresco 2019</p></figcaption>
+        </figure>
+      </li>
+      <li class="col-33">
+        <figure>
+          <img class="wineimg" src=".\imgas\wine5.png">
+          <figcaption><p>Abbona Barolo 2016</p></figcaption>
+        </figure>
+      </li>
+      <li class="col-33">
+        <figure>
+          <img class="wineimg" src=".\imgas\wine6.png">
+          <figcaption><p>Acon Crianza  2018</p></figcaption>
+        </figure>
+      </li>
+      <li class="col-33">
+        <figure>
+          <img class="wineimg" src=".\imgas\wine7.png">
+          <figcaption class="ttt"><p>Acon Targum  2004</p></figcaption>
+        </figure>
+      </li>
+      <li class="col-33">
+        <figure>
+          <img class="wineimg" src=".\imgas\wine8.png">
+          <figcaption><p>Alion 2004</p></figcaption>
+        </figure>
+      </li>
+      <li class="col-33">
+        <figure>
+          <img class="wineimg" src=".\imgas\wine9.png">
+          <figcaption><p>Baron Gaston Legrand Bas Armagnac 1901</p></figcaption>
+        </figure>
+      </li>
+    </ul>
+    <h1>Оформление покупки</h1>
+    
+<table width=100%>
+  <tr>
+    <td align=center colspan="2">
+    <form action="newOrder.php" method="post">
+      <SELECT id="wine_name_price" name="wine_name_price"> 
+        <OPTION VALUE="Bio Bardolino DOC Chiaretto 2021"> Bio Bardolino DOC Chiaretto 2021</OPTION>
+        <OPTION VALUE="Bio Chianti DOCG"> Bio Chianti DOCG</OPTION>
+        <OPTION VALUE="Abadia Retuerta Cuvee Palomar 2004"> Abadia Retuerta Cuvee Palomar 2004</OPTION>
+        <OPTION VALUE="Abbona Barbaresco 2019"> Abbona Barbaresco 2019</OPTION>
+        <OPTION VALUE="Abbona Barolo 2016">Abbona Barolo 2016</OPTION>
+        <OPTION VALUE="Acon Crianza  2018">Acon Crianza  2018</OPTION>
+        <OPTION VALUE="Acon Targum  2004">Acon Targum  2004</OPTION>
+        <OPTION VALUE="Alion 2004">Alion 2004 </OPTION>
+        <OPTION VALUE="Baron Gaston Legrand Bas Armagnac 1901">Baron Gaston Legrand Bas Armagnac 1901</OPTION>
+      </SELECT>       	
+    </td>
+  </tr>
+<tr>
+  <td align=center>
+    <input type="submit" value="Купить"/>
+  </td>
+  </form>
+
+  <td align=center>
+    <form action="Wine.html" target="_self">
+      <button class="butt">Назад</button>
+    </form>
+  </td>
+</tr>
+</table>
+  </body>
+</html>
