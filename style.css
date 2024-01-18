@@ -103,6 +103,7 @@ input::-webkit-input-placeholder {
 select {
   width: 65%;
   height: 50px;
+  margin-bottom: 30px;
   border: 1px solid var(--select-border);
   border-radius: 0.25em;
   padding: 0.25em 0.5em;
